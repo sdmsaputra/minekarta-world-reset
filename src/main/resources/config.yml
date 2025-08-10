@@ -1,0 +1,17 @@
+# MinekartaWorldReset configuration
+
+# The name of the world to reset
+world: "world_to_reset"
+
+# The schedule for the world reset
+# This is a cron expression. For example, "0 0 0 * * ?" means every day at midnight.
+schedule: "0 0 0 * * ?"
+
+# Whether to announce the reset in chat
+announce: true
+
+# The message to announce before the reset
+announcement-message: "&c[Minekarta] &eThe world will be reset in &a{time}&e!"
+
+# The time in seconds before the reset to announce it
+announcement-time: 60
