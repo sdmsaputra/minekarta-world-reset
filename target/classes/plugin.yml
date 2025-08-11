@@ -1,0 +1,12 @@
+name: MinekartaWorldReset
+version: 1.0-SNAPSHOT
+main: com.minekarta.worldreset.MinekartaWorldReset
+api-version: '1.21'
+author: Jules
+description: Auto World Reset for Papermc
+softdepend: [Multiverse-Core, PlaceholderAPI]
+commands:
+  minekartaworldreset:
+    description: Main command for MinekartaWorldReset
+    usage: /<command> [args]
+    aliases: [mwr]

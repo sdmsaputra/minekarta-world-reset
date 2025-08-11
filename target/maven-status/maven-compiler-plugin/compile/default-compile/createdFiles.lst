@@ -1,0 +1,5 @@
+com/minekarta/worldreset/task/WorldResetTask.class
+com/minekarta/worldreset/scheduler/SchedulerService.class
+com/minekarta/worldreset/scheduler/SchedulerService$WorldResetJob.class
+com/minekarta/worldreset/MinekartaWorldReset.class
+com/minekarta/worldreset/command/MWRCommand.class
