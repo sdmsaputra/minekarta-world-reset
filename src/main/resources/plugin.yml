@@ -4,7 +4,8 @@ main: com.minekarta.worldreset.MinekartaWorldReset
 api-version: '1.21'
 author: Jules
 description: Auto World Reset for Papermc
-softdepend: [Multiverse-Core, PlaceholderAPI]
+depend: [Multiverse-Core]
+softdepend: [PlaceholderAPI]
 commands:
   minekartaworldreset:
     description: Main command for MinekartaWorldReset
