@@ -38,7 +38,9 @@ public final class MinekartaWorldReset extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        schedulerService.stop();
+        if (schedulerService != null) {
+            schedulerService.stop();
+        }
         logger.info("MinekartaWorldReset has been disabled!");
     }
 
